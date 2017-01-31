@@ -21,7 +21,7 @@ class Permohonan extends CI_Controller {
 					'dataizinsiup'=>$this->izin->getDataizinsiup(),
 					'dataizintdp'=>$this->izin->getDataizintdp()
 					);
-            $this->load->view('template/Template',$data);}
+            $this->load->view('template/Template2',$data);}
             else
                 redirect('Login');
 	}

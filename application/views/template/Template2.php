@@ -23,7 +23,7 @@
 
     <div id="wrapper">
 
-     <!--   <?php if ($this->session->userdata('login')==true) {
+       <?php if ($this->session->userdata('login')==true) {
             $this->load->view('template/Sidemenu');
         } ?>
 
@@ -33,7 +33,7 @@
         <div class="row border-bottom">
         <?php $this->load->view('template/Header'); ?>
         </div> 
-             -->
+            
         <div class="row">
             <div class="col-lg-12">
                 <div class="wrapper wrapper-content">
